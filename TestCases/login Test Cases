@@ -1,0 +1,15 @@
+Login
+TC_01: Login with valid user name and password
+Expected Result: Successful login and redirection to product page.
+
+TC_02: Login with invalid user name
+Expected Result: Error message indicating invalid user name.
+
+TC_03: Login with invalid password
+Expected Result: Error message indicating invalid password.
+
+TC_04: Login with locked account
+Expected Result: Error message indicating account is locked.
+
+TC_05: Login with empty user name or password fields
+Expected Result: Error message indicating missing user name or password.
