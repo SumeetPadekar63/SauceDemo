@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 public class Verify_login_functionality {
 	public class SwagLabsTests {
-
-
 		private WebDriver driver;
 		private void login(String username, String password) {
 			WebElement usernameField = driver.findElement(By.id("user-name"));
@@ -21,6 +19,7 @@ public class Verify_login_functionality {
 			passwordField.sendKeys(password);
 			loginButton.click();
 		}
+		
 		@BeforeMethod
 		public void setUp() {
 			// Set up your WebDriver (Assuming you are using ChromeDriver)
