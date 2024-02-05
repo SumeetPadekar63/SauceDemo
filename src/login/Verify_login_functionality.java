@@ -22,9 +22,7 @@ public class Verify_login_functionality {
 		
 		@BeforeMethod
 		public void setUp() {
-			// Set up your WebDriver (Assuming you are using ChromeDriver)
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sumeet Padekar\\git\\SauceDemo\\ChromeDriver\\chromedriver.exe"); 
-
 			driver = new ChromeDriver();
 			driver.get("https://www.saucedemo.com/");
 		}

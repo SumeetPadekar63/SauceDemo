@@ -1,0 +1,17 @@
+Product List:
+
+TC_06: Sort products by name (ascending and descending)
+Expected Result: Products displayed in correct order for both ascending and descending sorts.
+TC_07: Filter products by category
+Expected Result: Only products within the selected category displayed.
+TC_08: View product details by clicking on its thumbnail
+Expected Result: Product details page opens with correct information.
+Adding Items to Cart:
+TC_09: Add single product to cart
+Expected Result: Product added to cart with success message and cart counter updated.
+TC_10: Add multiple products to cart
+Expected Result: All selected products added to cart with accurate count and updated prices.
+TC_11: Remove item from cart
+Expected Result: Selected item removed from cart with updated count and prices.
+TC_12: Update product quantity in cart
+Expected Result: Quantity updated and reflected in cart with correct total price.
